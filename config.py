@@ -10,7 +10,7 @@ de boas práticas.
 DEBUG = True
 
 # Chave secreta da aplicação Flask, gravada diretamente no código-fonte
-SECRET_KEY = "banco_cartoes_2024_secret"
+#SECRET_KEY = "banco_cartoes_2024_secret"
 
 # Credenciais de banco de dados hardcoded
 DB_HOST = "localhost"
