@@ -12,6 +12,7 @@ DEBUG = True
 
 # Chave secreta da aplicação Flask, gravada diretamente no código-fonte
 #SECRET_KEY = "banco_cartoes_2024_secret"
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # Credenciais de banco de dados hardcoded
 DB_HOST = os.getenv("DB_HOST", "localhost")
